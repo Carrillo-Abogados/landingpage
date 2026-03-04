@@ -3,6 +3,7 @@
 import { ReactNode } from 'react';
 import { motion, AnimatePresence, useMotionTemplate, useMotionValue } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
+import { scrollToSection } from './SmoothScroll';
 
 export interface ServiceStep {
   title: string;
@@ -210,15 +211,15 @@ export default function ServiceCard({
               </motion.div>
 
               {/* CTA — naranja, conversión */}
-              <motion.a
+              <motion.button
                 initial={{ opacity: 0, y: 6 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3, delay: steps.length * 0.07 + 0.2 }}
-                href="#contacto"
-                className="mt-3 flex items-center justify-center gap-2 w-full py-3 px-4 rounded-xl bg-carrillo-orange text-white text-sm font-bold hover:brightness-110 active:scale-[0.97] transition-all duration-200"
+                onClick={() => scrollToSection('contacto')}
+                className="mt-3 flex items-center justify-center gap-2 w-full py-3 px-4 rounded-xl bg-carrillo-orange text-white text-sm font-bold hover:brightness-110 active:scale-[0.97] transition-all duration-200 cursor-pointer"
               >
                 Solicitar consulta gratuita
-              </motion.a>
+              </motion.button>
             </div>
           </motion.div>
         )}

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { AnimatePresence, LayoutGroup } from 'framer-motion';
 import { Mail } from 'lucide-react';
 import ParticlesBackground from './components/ParticlesBackground';
@@ -18,6 +18,23 @@ import FloatingActions from './components/FloatingActions';
 export default function Home() {
   const [showSplash, setShowSplash] = useState(true);
   const [showFactsModal, setShowFactsModal] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  // Remove URL hash on page load/refresh so carrilloabgd.com/#contacto
+  // doesn't persist and the page always starts from the top.
+  useEffect(() => {
+    if (window.location.hash) {
+      window.history.replaceState(null, '', window.location.pathname);
+      window.scrollTo(0, 0);
+    }
+  }, []);
+
+  // Scroll-aware header: increases opacity and adds shadow after scrolling.
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 60);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
   return (
     <LayoutGroup>
@@ -32,7 +49,7 @@ export default function Home() {
           <LegalFactsModal isOpen={showFactsModal} onClose={() => setShowFactsModal(false)} />
 
           {/* Header */}
-          <header className="fixed top-0 left-0 right-0 z-50 bg-black/10 backdrop-blur-xl border-b border-white/5 transition-all duration-300">
+          <header className={`fixed top-0 left-0 right-0 z-50 backdrop-blur-xl border-b transition-all duration-500 ${scrolled ? 'bg-black/70 border-white/10 shadow-xl shadow-black/30' : 'bg-black/10 border-white/5'}`}>
             <div className="container mx-auto px-4 sm:px-6 py-3 sm:py-4 flex justify-between items-center">
               {!showSplash && (
                 <BrandLogo
