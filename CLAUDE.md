@@ -212,8 +212,8 @@ Ejecuta todas estas tareas en orden de prioridad. Trabaja de forma sistemática,
 
 - **Razón Social:** Carrillo ABGD SAS
 - **Nombre Comercial:** Carrillo Abogados
-- **CEO y Fundador:** Dr. Omar Alberto Carrillo Martinez (15 años en la SIC - Superintendencia de Industria y Comercio)
-- **Experiencia:** 23 años
+- **CEO y Fundador:** Dr. Omar Alberto Carrillo Martinez (35 años de experiencia de práctica jurídica)
+- **Experiencia:** 35 años
 - **Dirección:** Calle 19 N 2N - 29, Edificio Torre de Cali, Piso 21, Oficina 2102A, Cali, Valle del Cauca, Colombia
 - **Email Director:** director@carrilloabgd.com
 - **Email Asesoría:** asesora@carrilloabgd.com
@@ -222,7 +222,8 @@ Ejecuta todas estas tareas en orden de prioridad. Trabaja de forma sistemática,
   1. Registro de Marcas
   2. Propiedad Intelectual
   3. Contratación Estatal
-  4. Licitación Pública
+  4. Derecho Constitucional
+  5. Derecho Administrativo
 - **Lanzamiento:** 10 de Abril de 2026
 
 ---
