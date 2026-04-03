@@ -20,7 +20,7 @@ export default function HeroSection() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-carrillo-cyan opacity-60"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-carrillo-cyan"></span>
             </span>
-            <span className="text-xs uppercase tracking-[0.2em] text-carrillo-blue-light font-bold">Relanzamiento oficial — 1ª Firma 100% LegalTech en Colombia</span>
+            <span className="text-xs uppercase tracking-[0.2em] text-carrillo-blue-light font-bold">Conmemoración de los 30 años de ABGD - Firma 100% LegalTech en Colombia</span>
           </div>
         </motion.div>
 
@@ -66,8 +66,8 @@ export default function HeroSection() {
             transition={{ duration: 0.4, delay: 0.6 }}
             className="mt-6 sm:mt-8 text-center"
           >
-            <p className="text-carrillo-blue-light text-sm uppercase tracking-widest font-bold mb-1">Fecha esperada de relanzamiento</p>
-            <p className="text-xl sm:text-2xl text-white font-light">10 de Abril de 2026</p>
+            <p className="text-carrillo-blue-light text-sm uppercase tracking-widest font-bold mb-1">Fecha de conmemoración</p>
+            <p className="text-xl sm:text-2xl text-white font-light">9 de Abril de 2026 — 6:00 PM</p>
           </motion.div>
         </motion.div>
       </div>

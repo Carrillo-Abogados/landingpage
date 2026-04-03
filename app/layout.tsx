@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     template: "%s | Carrillo ABGD",
   },
   description:
-    "Carrillo ABGD SAS — 30 años de experiencia legal en Cali. Especialistas en registro de marcas, propiedad intelectual, contratación estatal y licitación pública. Primera firma legal 100% LegalTech en Colombia. Relanzamiento Abril 2026.",
+    "Carrillo ABGD SAS — 30 años de experiencia legal en Cali. Especialistas en registro de marcas, propiedad intelectual, contratación estatal y licitación pública. Primera firma legal 100% LegalTech en Colombia. Conmemoración 30 años, 9 de Abril 2026.",
   keywords: [
     "Abogados Cali",
     "Registro de marcas Colombia",

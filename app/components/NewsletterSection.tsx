@@ -10,7 +10,7 @@ export default function NewsletterSection() {
         <h2 id="newsletter-heading" className="text-2xl sm:text-3xl font-bold text-white">
           Sé el primero en el futuro de la abogacía
         </h2>
-        <p className="text-carrillo-gray">Recibe una invitación exclusiva al relanzamiento de la primera firma legal 100% LegalTech en Colombia.</p>
+        <p className="text-carrillo-gray">Recibe una invitación exclusiva a la conmemoración de los 30 años de ABGD — Firma 100% LegalTech en Colombia.</p>
         <SubscriptionForm />
       </AnimatedSection>
     </section>
