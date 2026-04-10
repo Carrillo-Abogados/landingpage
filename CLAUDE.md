@@ -2,7 +2,7 @@
 
 **Repo**: AlexisJ16/Frontend---CarrilloAbogados
 **Dominio**: carrilloabgd.com (Vercel)
-**Estado**: Coming Soon, lanzamiento 10 Abril 2026
+**Estado**: LEGACY — landing page original. Sitio principal migrado a frontend/ (app.carrilloabgd.com)
 
 ## Stack
 
@@ -38,8 +38,8 @@ app/
 ## Datos del negocio
 
 - Razon Social: Carrillo ABGD SAS
-- CEO: Dr. Omar Alberto Carrillo Martinez (35 anos experiencia)
-- Direccion: Calle 19 N 2N-29, Torre de Cali, Piso 21, Of. 2102A, Cali
+- CEO: Dr. Omar Alberto Carrillo Martinez (30+ anos de experiencia)
+- Direccion: Calle 19 Norte 2N-29, Oficina 2101 A, Edificio Torre de Cali — Cali, Valle del Cauca, Colombia
 - Emails: director@carrilloabgd.com, asesora@carrilloabgd.com
 
 ## No modificar sin preguntar
