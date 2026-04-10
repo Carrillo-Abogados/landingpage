@@ -50,9 +50,9 @@ export default function Footer() {
               <p className="flex items-start gap-2">
                 <MapPin className="w-3.5 h-3.5 mt-0.5 flex-shrink-0" aria-hidden="true" />
                 <span>
-                  Calle 19 N 2N - 29,<br />
-                  Edificio Torre de Cali,<br />
-                  Piso 21, Oficina 2102A<br />
+                  Calle 19 Norte 2N-29,<br />
+                  Oficina 2101 A,<br />
+                  Edificio Torre de Cali<br />
                   Cali, Valle del Cauca, Colombia
                 </span>
               </p>

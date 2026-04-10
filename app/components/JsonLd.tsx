@@ -6,7 +6,7 @@ const organizationSchema = {
   url: 'https://carrilloabgd.com',
   logo: 'https://carrilloabgd.com/logo-carrillo.svg',
   description: '30 años de experiencia legal en Colombia. Especialistas en marcas, patentes, derecho corporativo y contratación estatal.',
-  foundingDate: '2003',
+  foundingDate: '1996',
   founder: {
     '@type': 'Person',
     name: 'Dr. Omar Carrillo',
@@ -14,7 +14,7 @@ const organizationSchema = {
   },
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Cra. 40 #27-26, Torre de Cali, Piso 21, Oficina 2102A',
+    streetAddress: 'Calle 19 Norte 2N-29, Oficina 2101 A, Edificio Torre de Cali',
     addressLocality: 'Cali',
     addressRegion: 'Valle del Cauca',
     postalCode: '760001',
@@ -23,6 +23,7 @@ const organizationSchema = {
   contactPoint: [
     {
       '@type': 'ContactPoint',
+      telephone: '+57-315-279-5837',
       email: 'asesora@carrilloabgd.com',
       contactType: 'customer service',
       availableLanguage: ['Spanish'],
@@ -40,7 +41,7 @@ const localBusinessSchema = {
   description: 'Firma legal líder en Cali, Colombia. Especialistas en marcas, patentes, propiedad industrial, derecho corporativo y contratación estatal. 30 años de experiencia.',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Cra. 40 #27-26, Torre de Cali, Piso 21, Oficina 2102A',
+    streetAddress: 'Calle 19 Norte 2N-29, Oficina 2101 A, Edificio Torre de Cali',
     addressLocality: 'Cali',
     addressRegion: 'Valle del Cauca',
     postalCode: '760001',
