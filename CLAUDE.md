@@ -1,8 +1,9 @@
 # CLAUDE.md — Landing Page Carrillo Abogados
 
-**Repo**: AlexisJ16/Frontend---CarrilloAbogados
-**Dominio**: carrilloabgd.com (Vercel)
-**Estado**: LEGACY — landing page original. Sitio principal migrado a frontend/ (app.carrilloabgd.com)
+**Repo**: Carrillo-Abogados/landingpage
+**Dominio actual**: `carrilloabgd.com` + `www.carrilloabgd.com` (Vercel project `frontend-carrillo-abogados`)
+**Estado**: LEGACY transicional — sirve apex hasta cutover F0.9-F0.12 (planeado fin de Abril 2026). Post-cutover `carrilloabgd.com` apuntara a `frontend/` (Next.js completo) y este repo se **archiva en GitHub** (read-only, decision D2 plan ejecutable Robustez Total).
+**Plataforma principal**: `app.carrilloabgd.com` -> repo `frontend/` (Next.js 16 multi-domain F0.3)
 
 ## Stack
 
